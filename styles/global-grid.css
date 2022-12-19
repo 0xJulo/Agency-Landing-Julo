@@ -1,7 +1,6 @@
 /* Mobile start */
 
 .Grid{
-    margin: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 1.5em;
@@ -219,6 +218,7 @@
 
 .hero{
     grid-column: span 4;
+    margin: .5em;
 }
 
 @media (min-width: 481px) {

@@ -1,9 +1,6 @@
 import styles from './Heading1.module.css';
 
 function Heading1({ children, underline }) {
-  console.log(underline);
-  // Check if underline enabled
-
   let internalStyles;
   if (underline) {
     internalStyles = styles.underline;

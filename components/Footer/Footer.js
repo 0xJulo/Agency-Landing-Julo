@@ -1,8 +1,8 @@
 import styles from './Footer.module.css';
 
-function Footer2() {
+function Footer() {
   return (
-    <div className={styles.agencyFooter}>
+    <footer className={styles.agencyFooter}>
       <div className={styles.agencyEmail}>
         <p>© 2022 Agency</p>
         <a href='mailto: agency@developerdao.com' className='hover:underline'>
@@ -35,8 +35,8 @@ function Footer2() {
           Twitter
         </a>
       </div>
-    </div>
+    </footer>
   );
 }
 
-export default Footer2;
+export default Footer;

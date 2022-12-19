@@ -3,5 +3,18 @@
     opacity: 0.8;
     background-size: 17px 17px;
     background-image:  repeating-linear-gradient(0deg, #be2d61, #be2d61 2px, black 1px, black);
-    height: 80vh;
+    height: 75vh;
+}
+
+
+@media (min-width: 481px) {
+    .hero{
+        height: 80vh;
+    }
+}
+
+@media (min-width: 769px) {
+    .hero{
+        height: 80vh;
+    }
 }
