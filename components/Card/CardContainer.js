@@ -5,12 +5,11 @@ function CardContainer() {
   return (
     <>
       {projects.map((project, index) => (
-        <div className='third' key={index}>
+        <div key={index} className='third'>
           <Card
             title={project.name}
             description={project.description}
             people={project.people}
-            className='third'
           />
         </div>
       ))}

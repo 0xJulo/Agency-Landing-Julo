@@ -1,10 +1,22 @@
 .card{
-    width: 100%;
     border: 2px solid #be2d61;
     padding: 1.5em;
     border-radius: 1em;
-    height: 20em;
     margin: .5em 0;
+    width: 100%;
+    
+}
+
+@media (min-width: 481px) {
+    .card{
+        height: 18em;
+    }
+}
+
+@media (min-width: 769px) {
+    .card{
+        height: 18em;
+    }
 }
 
 .card:hover{

@@ -1,6 +1,7 @@
 import { useSpring, animated } from '@react-spring/web';
 import Heading2 from '../Typography/H2/Heading2';
 import CardContainer from '../Card/CardContainer';
+import styles from './ProjectsContainer.module.css';
 
 function ProjectsContainer() {
   // react spring animation
@@ -16,11 +17,15 @@ function ProjectsContainer() {
   });
 
   return (
-    <animated.section style={fadeInProjects} className='Grid projectsContainer'>
+    <section className={styles.projects}>
       <Heading2>Projects</Heading2>
-      <CardContainer />
-    </animated.section>
+      <animated.div style={fadeInProjects} className='Grid'>
+        <CardContainer />
+      </animated.div>
+    </section>
   );
 }
 
 export default ProjectsContainer;
+
+// <animated.section style={fadeInProjects} className='Grid projectsContainer'>
