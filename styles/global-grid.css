@@ -233,3 +233,35 @@
         grid-column-end: 8;
     }
 }
+
+
+/* FOOTER */
+
+.footer{
+    grid-column: span 4;
+    margin: 0;
+    padding: 2em 1em;
+    background: #be2d61;;
+}
+
+.social-links {
+    margin-top: 1.75em;
+}
+
+.social-links a {
+    display: block;
+    padding: .5em 0;
+}
+
+@media (min-width: 481px) {
+    .footer{
+        grid-column: span 8;
+    }
+}
+
+@media (min-width: 769px) {
+    .footer{
+        grid-column-start: 1;
+        grid-column-end: 8;
+    }
+}

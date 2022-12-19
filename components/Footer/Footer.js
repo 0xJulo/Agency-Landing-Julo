@@ -2,14 +2,14 @@ import styles from './Footer.module.css';
 
 function Footer() {
   return (
-    <footer className={styles.agencyFooter}>
-      <div className={styles.agencyEmail}>
+    <footer className='footer'>
+      <div className='email-contact'>
         <p>© 2022 Agency</p>
         <a href='mailto: agency@developerdao.com' className='hover:underline'>
           📪 - agency@developerdao.com
         </a>
       </div>
-      <div className={styles.socialLinks}>
+      <div className='social-links'>
         <a
           href='https://github.com/D-D-Agency'
           target='_blank'
