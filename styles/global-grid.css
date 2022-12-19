@@ -249,8 +249,8 @@
 }
 
 .social-links a {
-    display: block;
-    padding: .5em 0;
+    display: inline-block;
+    padding-right: 1.75em;
 }
 
 @media (min-width: 481px) {
