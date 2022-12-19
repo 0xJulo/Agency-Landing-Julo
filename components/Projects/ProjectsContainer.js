@@ -16,10 +16,8 @@ function ProjectsContainer() {
   });
 
   return (
-    <animated.section style={fadeInProjects} className='Grid sectionBottom'>
-      <div className='inset'>
-        <Heading2>Projects</Heading2>
-      </div>
+    <animated.section style={fadeInProjects} className='Grid projectsContainer'>
+      <Heading2>Projects</Heading2>
       <CardContainer />
     </animated.section>
   );

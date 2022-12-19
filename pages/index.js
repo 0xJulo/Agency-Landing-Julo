@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Hero from '../components/Hero/Hero';
 import AppHeader from '../components/AppHeader/AppHeader';
 import Footer from '../components/Footer/Footer';
-import ProjectsContainer from '../components/Projects/Projects';
+import ProjectsContainer from '../components/Projects/ProjectsContainer';
 
 export default function Home() {
   return (
