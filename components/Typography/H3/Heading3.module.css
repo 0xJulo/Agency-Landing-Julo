@@ -1,0 +1,14 @@
+.h3{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: .2em;
+    padding-bottom: .1em;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+
+.underline {
+    composes: h3;
+    border-bottom: 4px solid #be2d61;
+}

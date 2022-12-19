@@ -1,0 +1,21 @@
+.agencyHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1em;
+    padding-top: 1em;
+}
+
+.hireUs {
+    background: #be2d61;
+    padding: 0 2em;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: .2em;
+    border: 3px solid #be2d61; 
+}
+
+.hireUs:hover {
+    background: none;
+    color: white;
+    border: 2px solid #be2d61; 
+}

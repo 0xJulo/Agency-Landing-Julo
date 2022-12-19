@@ -1,0 +1,13 @@
+.h1{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 4em;
+    letter-spacing: .2em;
+    padding-bottom: .1em;
+    margin-top: .5em;
+}
+
+.underline {
+    composes: h1;
+    border-bottom: 4px solid #be2d61;
+}

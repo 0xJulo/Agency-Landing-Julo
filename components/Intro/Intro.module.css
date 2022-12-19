@@ -1,0 +1,26 @@
+.intro{
+    background: black;
+    padding: 1.5em;
+    margin-top: 25%;
+    padding: 0.5em 2em 3.5em;
+}
+
+.intro p {
+    font-size: 1em;
+}
+
+@media (min-width: 768px) {
+    .intro p{
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1025px) {
+    .intro {
+        margin-left: 10%;
+    }
+    .intro p{
+        font-size: 2em;
+    }
+}
+

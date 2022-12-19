@@ -1,0 +1,7 @@
+.background {
+    background-color: black;
+    opacity: 0.8;
+    background-size: 17px 17px;
+    background-image:  repeating-linear-gradient(0deg, #be2d61, #be2d61 2px, black 1px, black);
+    height: 80vh;
+}

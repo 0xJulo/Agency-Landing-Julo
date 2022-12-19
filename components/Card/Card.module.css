@@ -1,0 +1,12 @@
+.card{
+    width: 100%;
+    border: 2px solid #be2d61;
+    padding: 1em 2em 2.5em 2em;
+    border-radius: 1em;
+    height: 20em;
+}
+
+.card:hover{
+    background: #be2d61;
+    cursor: pointer;
+}
